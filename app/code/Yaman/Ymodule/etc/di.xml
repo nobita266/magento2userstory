@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
-<!--
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
--->
+
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="\Magento\Catalog\Api\Data\CategoryInterface" type="Magento\TestModule1\Service\V1\AllSoapAndRest" />
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="add_on_sale_label" type="Yaman\Ymodule\Plugin\ProductAddOnSaleLabel"/>
+    </type>
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="change_copyright_text" type="Yaman\Ymodule\Plugin\ChangeCopyrightText"/>
+    </type>
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="Breadcrumbsplugin" type="Yaman\Ymodule\Plugin\Breadcrumbs"/>
+    </type>
 </config>

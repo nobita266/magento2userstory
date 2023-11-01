@@ -16,14 +16,14 @@ class Index extends Action{
     public function __construct(Context $context, Test $test)
     {
         
-        parent::__construct($context);
         $this->test=$test;
+         return parent::__construct($context);
 
         
     }
     public function execute()
     {
-        $this->test->getParams();
+        return $this->test->getParams();
     }
 
 
