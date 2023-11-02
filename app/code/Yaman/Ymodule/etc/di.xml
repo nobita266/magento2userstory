@@ -10,4 +10,7 @@
     <type name="Magento\Theme\Block\Html\Breadcrumbs">
         <plugin name="Breadcrumbsplugin" type="Yaman\Ymodule\Plugin\Breadcrumbs"/>
     </type>
+    <type name="Magento\Theme\Block\Html\Header">
+        <plugin name="welcomemsgchange" type="Yaman\Ymodule\Plugin\ChangeWelcome"/>
+    </type>
 </config>
