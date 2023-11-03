@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <type name="Magento\Catalog\Model\Product">
+    <!-- <type name="Magento\Catalog\Model\Product">
         <plugin name="add_on_sale_label" type="Yaman\Ymodule\Plugin\ProductAddOnSaleLabel"/>
     </type>
     <type name="Magento\Theme\Block\Html\Footer">
@@ -12,6 +12,17 @@
     </type>
     <type name="Magento\Theme\Block\Html\Header">
         <plugin name="welcomemsgchange" type="Yaman\Ymodule\Plugin\ChangeWelcome"/>
+    </type> -->
+      <type name="Magento\Framework\App\RouterList">
+        <arguments>
+            <argument name="routerList" xsi:type="array">
+                <item name="inchoocustomrouter" xsi:type="array">
+                    <item name="class" xsi:type="string">Yaman\Ymodule\Controller\Router</item>
+                    <item name="disable" xsi:type="boolean">false</item>
+                    <item name="sortOrder" xsi:type="string">61</item>
+                </item>
+            </argument>
+        </arguments>
     </type>
-    
+
 </config>
