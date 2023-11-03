@@ -1,7 +1,6 @@
 <?php
 namespace Yaman\Ymodule\Observer;
 
-use Magento\Framework\DB\LoggerInterface as DBLoggerInterface;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\Event\Observer;
 use Psr\Log\LoggerInterface;

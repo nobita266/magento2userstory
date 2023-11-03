@@ -13,4 +13,5 @@
     <type name="Magento\Theme\Block\Html\Header">
         <plugin name="welcomemsgchange" type="Yaman\Ymodule\Plugin\ChangeWelcome"/>
     </type>
+    
 </config>
