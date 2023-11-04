@@ -7,6 +7,7 @@
         <observer name="Userstory32" instance="Yaman\Ymodule\Observer\Userstory32" />
         <observer name="Userstory4" instance="Yaman\Ymodule\Observer\Userstory4"/>
     </event>
+       
 
    
 </config>
