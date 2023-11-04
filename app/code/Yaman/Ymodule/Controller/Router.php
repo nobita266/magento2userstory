@@ -47,13 +47,13 @@ class Router implements RouterInterface
             }
 
             array_push($url,$finalurl);  
-            dump($url);
+            // dump($url);
 
         if ($cnt==2) {
             $request->setModuleName($url[0]);
             $request->setControllerName($url[1]);
             $request->setActionName($url[2]);
-            dump($request);
+            // dump($request);
             return $this->actionFactory->create(Forward::class, ['request' => $request]);
         }
         return null;

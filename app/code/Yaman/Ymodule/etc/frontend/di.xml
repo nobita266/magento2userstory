@@ -16,19 +16,17 @@
       <type name="Magento\Framework\App\RouterList">
         <arguments>
             <argument name="routerList" xsi:type="array">
-                <item name="inchoocustomrouter" xsi:type="array">
+                <!-- <item name="inchoocustomrouter" xsi:type="array">
                     <item name="class" xsi:type="string">Yaman\Ymodule\Controller\Router</item>
                     <item name="disable" xsi:type="boolean">false</item>
                     <item name="sortOrder" xsi:type="string">61</item>
-                </item>
-            </argument>
-            <!-- <argument name="routerList" xsi:type="array">
-                <item name="inchoocustomrouter" xsi:type="array">
+                </item> -->
+               <item name="inchoocustomrouter2" xsi:type="array">
                     <item name="class" xsi:type="string">Yaman\Ymodule\Controller\Router2</item>
                     <item name="disable" xsi:type="boolean">false</item>
                     <item name="sortOrder" xsi:type="string">61</item>
                 </item>
-            </argument> -->
+                </argument>
         </arguments>
     </type>
 
