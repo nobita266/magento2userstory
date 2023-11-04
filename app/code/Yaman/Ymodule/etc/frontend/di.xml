@@ -13,11 +13,14 @@
     <type name="Magento\Theme\Block\Html\Header">
         <plugin name="welcomemsgchange" type="Yaman\Ymodule\Plugin\ChangeWelcome"/>
     </type> -->
+    <type name="Magento\Catalog\Block\Product\View\Description">
+        <plugin name="Yaman_Ymodule_modify_product_description" type="Yaman\Ymodule\Plugin\ModifyProductDescription" />
+    </type>
       <type name="Magento\Framework\App\RouterList">
         <arguments>
             <argument name="routerList" xsi:type="array">
                 <!-- <item name="inchoocustomrouter" xsi:type="array">
-                    <item name="class" xsi:type="string">Yaman\Ymodule\Controller\Router</item>
+                    <item name="class2" xsi:type="string">Yaman\Ymodule\Controller\Router</item>
                     <item name="disable" xsi:type="boolean">false</item>
                     <item name="sortOrder" xsi:type="string">61</item>
                 </item> -->
