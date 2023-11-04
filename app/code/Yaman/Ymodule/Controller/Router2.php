@@ -1,5 +1,5 @@
 <?php
-namespace \Controller;
+namespace Yaman\Ymodule\Controller;
 
 use Magento\Framework\App\Action\Forward;
 use Magento\Framework\App\ActionFactory;
