@@ -49,7 +49,7 @@ class Router implements RouterInterface
             array_push($url,$finalurl);  
             // dump($url);
 
-        if ($cnt==2) {
+        if ($cnt===2) {
             $request->setModuleName($url[0]);
             $request->setControllerName($url[1]);
             $request->setActionName($url[2]);
