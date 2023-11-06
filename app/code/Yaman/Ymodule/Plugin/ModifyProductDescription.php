@@ -2,6 +2,7 @@
 // File: Vendor/Module/Plugin/ProductDescription.php
 
 namespace Yaman\Ymodule\Plugin;
+//user story 6
 
 class ModifyProductDescription
 {
