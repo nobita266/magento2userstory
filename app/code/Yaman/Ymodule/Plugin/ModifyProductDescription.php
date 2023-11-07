@@ -9,7 +9,7 @@ class ModifyProductDescription
     public function afterToHtml(\Magento\Catalog\Block\Product\View\Description $subject, $result)
     {
         // Modify or replace description content as needed
-        $customDescription = 'Sample description';
+        $customDescription = 'Yaman Sample description';
         return $customDescription;
     }
 }
