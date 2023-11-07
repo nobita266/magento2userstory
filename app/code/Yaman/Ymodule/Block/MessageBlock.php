@@ -1,6 +1,6 @@
 <?php
 
-namespace Rohit\Tate\Block;
+namespace yaman\Ymodule\Block;
 
 use Magento\Framework\View\Element\Template;
 
